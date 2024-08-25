@@ -62,7 +62,7 @@
 		</div>
     <header class="header">
       <div class="container header__container">
-        <button class="btn-reset burger" aria-label="Открыть меню">
+        <button id="burger" class="btn-reset burger" aria-label="Открыть меню">
           <span class="burger__line"></span>
           <span class="burger__line"></span>
           <span class="burger__line"></span>
@@ -99,9 +99,9 @@
                 <img src="img/social.png" aria-hidden="true" alt="">
               </div>
               <div class="photos-wrap">
-                <img src="img/1.jpg" alt="Изображение 1">
-                <img src="img/2.jpg" alt="Изображение 2">
-                <img src="img/3.jpg" alt="Изображение 3">
+                <img id="photo-1" src="img/1.jpg" alt="Изображение 1">
+                <img id="photo-2" src="img/2.jpg" alt="Изображение 2">
+                <img id="photo-3" src="img/3.jpg" alt="Изображение 3">
               </div>
             </div>
             <div class="photos__shape"></div>
@@ -113,6 +113,8 @@
       </section>
     </main>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

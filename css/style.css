@@ -421,6 +421,11 @@ a:hover {
   opacity: 0.7;
 }
 
+
+.stop-scroll {
+  overflow: hidden;
+}
+
 @media (max-height: 1079px) {
   .hero__container {
     padding-top: 170px;
